@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="fdback.css">
+</head>
+<body>
+    
+    <div class="main">
+      <header><h1 id="title">Apni Rasoi<sub><p id="description">The taste of City</p></sub></h1></header>
+        <hr>
+        <h2 id="survey-form">Public Opnion Poll</h2>
+        <hr><hr>
+        <div class="qus">
+         <form>
+            <h3>Day Visited: 
+                <fieldset id="opt-1">
+                <input type="date" id="date" value="Date">
+            <label for="date">Date</label></h3>
+                 </fieldset> <br>
+            <h3>Dine-In/Take-Out:
+                <fieldset id="opt-2">
+                <input type="radio"  name="opt-2" value="In">
+                <label for="dine">Dine-In</label>
+                <input type="radio" name="opt-2" value="Out">
+                <label for="dine">Take-Out</label></h3>
+                  </fieldset> <br>
+            <h3>Food Quality: 
+                <fieldset id="opt-3">
+                <input type="radio" name="opt-3" value="Average">
+                 <label for="Average">Average</label>
+                 <input type="radio" name="opt-3" value="Good">
+                 <label for="Taste">Good</label>
+                 <input type="radio" name="opt-3" value="Excellent">
+                 <label for="Taste">Excellent</label>
+                 <input type="radio" name="opt-3" value="Dissatisfied">
+                 <label for="Taste">Dissatisfied</label></h3>
+                    </fieldset> <br>
+            <h3>Service Quality: 
+                <fieldset id="opt-4">
+                <input type="radio" name="opt-4" value="Average">
+                <label for="Average">Average</label>
+                 <input type="radio" name="opt-4" value="Good">
+                <label for="Taste">Good</label>
+                <input type="radio" name="opt-4" value="Excellent">
+                <label for="Taste">Excellent</label>
+                <input type="radio" name="opt-4" value="Dissatisfied">
+                <label for="Taste">Dissatisfied</label></h3>
+                   </fieldset> <br>
+            <h3>Cleanliness: 
+                <fieldset id="opt-5">
+                <input type="radio" name="opt-5" value="Average">
+                <label for="Average">Average</label>
+                 <input type="radio" name="opt-5" value="Good">
+                <label for="Taste">Good</label>
+                <input type="radio" name="opt-5" value="Excellent">
+                <label for="Taste">Excellent</label>
+                <input type="radio" name="opt-5" value="Dissatisfied">
+                <label for="Taste">Dissatisfied</label></h3>
+                    </fieldset> <br>
+            <h3>Order Accuracy: 
+                <fieldset id="opt-6">
+                <input type="radio" name="opt-6" value="Average">
+                <label for="Average">Average</label>
+                 <input type="radio" name="opt-6" value="Good">
+                <label for="Taste">Good</label>
+                <input type="radio" name="opt-6" value="Excellent">
+                <label for="Taste">Excellent</label>
+                <input type="radio" name="opt-6" value="Dissatisfied">
+                <label for="Taste">Dissatisfied</label></h3>
+                   </fieldset> <br>
+            <h3>Behaviour: 
+                <fieldset id="opt-7">
+                <input type="radio" name="opt-7" value="Average">
+                <label for="Average">Average</label>
+                 <input type="radio"  name="opt-7" value="Good">
+                <label for="Taste">Good</label>
+                <input type="radio"  name="opt-7" value="Excellent">
+                <label for="Taste">Excellent</label>
+                <input type="radio" name="opt-7" value="Dissatisfied">
+                <label for="Taste">Dissatisfied</label></h3>
+                    </fieldset> <br>
+            <h3>Value For Money: 
+                <fieldset id="opt-8">
+                <input type="radio" name="opt-8" value="Average">
+                <label for="Average">Average</label>
+                 <input type="radio" name="opt-8" value="Good">
+                <label for="Taste">Good</label>
+                <input type="radio" name="opt-8" value="Excellent">
+                <label for="Taste">Excellent</label>
+                <input type="radio" name="opt-8" value="Dissatisfied">
+                <label for="Taste">Dissatisfied</label></h3>
+                    </fieldset> <br>
+            <h3>Overall Experience: 
+                <fieldset id="opt-9">
+                <input type="radio" name="opt-9" value="Average">
+                <label for="Average">Average</label>
+                 <input type="radio" name="opt-9" value="Good">
+                <label for="Taste">Good</label>
+                <input type="radio" name="opt-9" value="Excellent">
+                <label for="Taste">Excellent</label>
+                <input type="radio" name="opt-9" value="Dissatisfied">
+                <label for="Taste">Dissatisfied</label></h3>
+                   </fieldset> <br>
+         </form>
+        </div>
+        <div class="suggest">
+            <h3>Any Suggestion To Improve</h3>
+            <textarea name="suggestion" id="suggest" cols="auto" rows="7"></textarea>
+            <h3><label for="name">Name:</label>
+            <input type="text" id="name" name="name" ></h3>
+             <h3><label for="contact">Contact:   </label>
+             <input type="number" id="nmber" name="contact" >   </h3>
+            <h3><label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </h3><br><br>
+             <button id="btn" onclick="this.innerHTML='Thankyou'"><h2 class="btn1">Submit</h2></button>
+        </div>
+    </div>
+</body>
+</html>
